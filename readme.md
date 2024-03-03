@@ -56,14 +56,14 @@ function MCLua.conf(mod)
     mod.logo = "resources/logo.png" -- or something else
     mod.version = "0.0.1"
     mod.authors = {
-        "AuthorName" = "AuthorContribution",
+        ["AuthorName"] = "AuthorContribution",
         -- i.e..
-        "okzyrox" = "Mod creator"
+        ["okzyrox"] = "Mod creator"
     }
     mod.contact = {
-        "source" = "https://github.com/...",
-        "website" = "google.com",
-        "issues" = "repoURL/issues",
+        ["source"] = "https://github.com/...",
+        ["website"] = "google.com",
+        ["issues"] = "repoURL/issues",
         -- twitter, discord, bsky, etc
     }
     -- etc etc
